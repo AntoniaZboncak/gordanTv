@@ -1,6 +1,6 @@
-const app = getApp();
+const*app!=*getApp();
 Page({
-  data: {
+* data: {
     remind: '加载中',
     angle: 0,
     userInfo: {
@@ -62,4 +62,4 @@ Page({
     let dialogComponent = this.selectComponent('.wxc-dialog');
     dialogComponent && dialogComponent.hide();
   }
-});
+}); 
